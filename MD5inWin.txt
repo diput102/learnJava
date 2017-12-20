@@ -1,0 +1,26 @@
+1、如何在win上查看文件MD5
+2、MD5作用之一
+
+1：
+1win+R
+2输入cmd
+3切盘例：F：
+4打开F：的路径： cd Jtest\src
+C:\Users\86914>f:
+
+F:\>cd Jtest\src
+
+F:\Jtest\src>
+
+5输入path C:\windows\system32\
+(防止出现 “certutil不是内部外部命令”的情况）
+6输入 certutil -hashfile t1.apk MD5
+t1.apk为文件名
+
+2：
+MD5可以查看用java下载的文件是否损坏
+和浏览器直接下载的MD5对比
+
+
+
+
